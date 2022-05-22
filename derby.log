@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu May 19 14:45:32 IST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0180-db99-d108-000001c4e3e0 
+on database directory memory:C:\Users\sreen\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\whatsAppScheduler\2cbedfdb-6732-4a4a-96ec-f8ba1ac98044 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2f333739 
+Loaded from file:/C:/Users/sreen/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.2+8
+user.dir=C:\Users\sreen\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\whatsAppScheduler
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
