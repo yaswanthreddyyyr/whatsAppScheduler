@@ -124,6 +124,7 @@ MessageService msgService;
 				if(connection.getResponseCode() == HttpURLConnection.HTTP_ACCEPTED) {
 					ObjectMapper objectMapper = new ObjectMapper();
 					
+					@SuppressWarnings("unchecked")
 					Map<String,String> response = objectMapper.readValue(connection.getInputStream(),Map.class);
 					System.out.println("Gupshup Message Id is ---> " + response.get("messageId"));
 					System.out.println(response.toString());
@@ -140,7 +141,9 @@ MessageService msgService;
 				}
 				else {
 					System.out.println("Message Failed of Id"+ message.getMessageId());
+					@SuppressWarnings("unused")
 					int queryResult = msgService.updateStatus(-1,null, message.getMessageId());
+					
 				}
 				
 				

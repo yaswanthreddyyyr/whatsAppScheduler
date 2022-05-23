@@ -35,7 +35,7 @@ public class WhatsAppSchedulerApplication {
 	}
 	@EventListener(ApplicationReadyEvent.class)
 	public void startScheduling() {
-		timer.schedule(task,1000,120000);
+		timer.schedule(task,60000,120000);
 	}
 	
 	

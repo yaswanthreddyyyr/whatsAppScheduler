@@ -25,15 +25,13 @@ public class MessageService {
 		
 	}
 	
-	public void dummy() {
-		System.out.println("Hi!!!!");
-	}
 	
 	public List<Message> getScheduledMessages() throws SQLException{
 		return msgDao.getScheduledMessages();
 	}
 	
 	public int updateStatus(int messageStatus,String gupshupMessageId,long messageId) throws Exception {
+		
 		
 		return msgDao.updateStatus(messageStatus, gupshupMessageId, messageId);
 		

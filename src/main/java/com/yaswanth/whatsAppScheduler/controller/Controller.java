@@ -1,5 +1,7 @@
 package com.yaswanth.whatsAppScheduler.controller;
 
+
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,7 +42,7 @@ public class Controller {
 			
 		}
 		catch (Exception e) {
-			res=new Response(405,"Something Went Wrong");
+			res=new Response(403,"Validation Error");
 			return res;
 			
 		}
