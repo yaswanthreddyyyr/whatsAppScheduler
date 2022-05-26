@@ -13,13 +13,14 @@ import com.yaswanth.whatsAppScheduler.entities.Client;
 import com.yaswanth.whatsAppScheduler.entities.Response;
 import com.yaswanth.whatsAppScheduler.service.AuthService;
 
+//Interceptor to handle request 
 
 @Component
 public class AuthInterceptor implements HandlerInterceptor{
 	@Autowired
 	AuthService authService;
 
-
+	//Pre-Handler gets the request before going to the controller
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {

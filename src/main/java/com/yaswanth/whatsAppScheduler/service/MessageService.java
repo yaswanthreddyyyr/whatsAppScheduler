@@ -11,8 +11,9 @@ import com.yaswanth.whatsAppScheduler.entities.Client;
 import com.yaswanth.whatsAppScheduler.entities.Message;
 import com.yaswanth.whatsAppScheduler.entities.Request;
 
+//Message Service to communicate with mesageDao
+
 @Service
-//@Component
 public class MessageService {
 	
 	@Autowired

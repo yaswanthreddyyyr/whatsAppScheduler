@@ -15,6 +15,8 @@ import com.yaswanth.whatsAppScheduler.entities.Response;
 import com.yaswanth.whatsAppScheduler.service.MessageService;
 import com.yaswanth.whatsAppScheduler.service.ValidationService;
 
+//Class to control routes
+
 @RestController
 public class Controller {
 	@Autowired
@@ -24,7 +26,7 @@ public class Controller {
 	ValidationService validationService;
 	Response res=null;
 	
-
+	//Method to listen path "/schedule"
 	
 	@PostMapping("/schedule")
 	public Response messageController(@RequestBody  Request requestBody ,HttpServletRequest request) {

@@ -3,7 +3,7 @@ package com.yaswanth.whatsAppScheduler.entities;
 import javax.validation.constraints.NotEmpty;
 
 
-
+//Entity for Request Format
 
 public class Request {
 	

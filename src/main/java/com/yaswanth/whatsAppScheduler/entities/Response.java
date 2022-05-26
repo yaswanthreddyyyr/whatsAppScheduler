@@ -1,7 +1,7 @@
 package com.yaswanth.whatsAppScheduler.entities;
 
 
-
+//Entity for response format
 
 public class Response {
 	

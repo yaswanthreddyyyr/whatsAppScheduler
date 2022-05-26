@@ -7,6 +7,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import com.yaswanth.whatsAppScheduler.interceptor.AuthInterceptor;
 
+//Configuration Class to add Interceptor to the application
+
 @Configuration
 public class AuthInterceptorConfiguration implements WebMvcConfigurer {
 	@Autowired

@@ -7,6 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import com.yaswanth.whatsAppScheduler.entities.Client;
 
+//Repository Class of Client
+
 @Repository
 public class ClientDao {
 	

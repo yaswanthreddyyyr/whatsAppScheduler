@@ -2,6 +2,10 @@ package com.yaswanth.whatsAppScheduler.entities;
 
 import org.springframework.stereotype.Component;
 
+//Message Entity
+//Variables are similar to Message table columns
+
+
 @Component
 public class Message {
 	

@@ -27,6 +27,7 @@ public class CustomTimerTask extends TimerTask {
 	@Autowired
 MessageService msgService;
 	
+	//Methods to encode info to send to Gupshup API
 	public static String encodeParam(String data) {
 		String result = "";
 		try {

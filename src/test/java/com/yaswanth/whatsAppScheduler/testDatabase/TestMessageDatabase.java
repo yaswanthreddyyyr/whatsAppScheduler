@@ -32,6 +32,7 @@ public class TestMessageDatabase {
 		assertThat(messageDao.updateStatus(1, "Some String", 50)).isEqualTo(1);
 	}
 	
+
 	
 	
 }

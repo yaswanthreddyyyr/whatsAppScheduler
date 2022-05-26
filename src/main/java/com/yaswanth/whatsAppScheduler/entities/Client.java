@@ -1,6 +1,8 @@
 package com.yaswanth.whatsAppScheduler.entities;
 
-
+//Client Entity Similar
+//All variables are similar to columns in client database
+//So that it will be easier for Row Mapping
 
 public class Client {
 	
